@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		453FF4CE27247B5C00144FBA /* AuthResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453FF4CD27247B5C00144FBA /* AuthResponse.swift */; };
 		4563F7A527226EE50013E3EE /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4563F7A427226EE50013E3EE /* TabBarViewController.swift */; };
 		4563F7A727226F6D0013E3EE /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4563F7A627226F6D0013E3EE /* SearchViewController.swift */; };
 		4563F7A927226F990013E3EE /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4563F7A827226F990013E3EE /* LibraryViewController.swift */; };
@@ -25,6 +26,7 @@
 		4563F7C52722714B0013E3EE /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4563F7C42722714B0013E3EE /* Artist.swift */; };
 		4563F7C72722715F0013E3EE /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4563F7C62722715F0013E3EE /* UserProfile.swift */; };
 		4563F7C927227EDF0013E3EE /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4563F7C827227EDF0013E3EE /* Extension.swift */; };
+		45A30A862723CAD500E3466D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A30A852723CAD500E3466D /* LoginView.swift */; };
 		45C8933627226C1600C75236 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C8933527226C1600C75236 /* AppDelegate.swift */; };
 		45C8933827226C1600C75236 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C8933727226C1600C75236 /* SceneDelegate.swift */; };
 		45C8933A27226C1600C75236 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C8933927226C1600C75236 /* HomeViewController.swift */; };
@@ -33,6 +35,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		453FF4CD27247B5C00144FBA /* AuthResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthResponse.swift; sourceTree = "<group>"; };
 		4563F7A427226EE50013E3EE /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		4563F7A627226F6D0013E3EE /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		4563F7A827226F990013E3EE /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
@@ -51,7 +54,8 @@
 		4563F7C42722714B0013E3EE /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
 		4563F7C62722715F0013E3EE /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
 		4563F7C827227EDF0013E3EE /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
-		45C8933227226C1600C75236 /* Spotify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spotify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45A30A852723CAD500E3466D /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		45C8933227226C1600C75236 /* Spotifyfy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spotifyfy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45C8933527226C1600C75236 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45C8933727226C1600C75236 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		45C8933927226C1600C75236 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -107,7 +111,7 @@
 		45C8933327226C1600C75236 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				45C8933227226C1600C75236 /* Spotify.app */,
+				45C8933227226C1600C75236 /* Spotifyfy.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -138,6 +142,7 @@
 		45C8934A27226C4100C75236 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				45A30A852723CAD500E3466D /* LoginView.swift */,
 				45C8934027226C1700C75236 /* LaunchScreen.storyboard */,
 			);
 			path = View;
@@ -150,6 +155,7 @@
 				4563F7C2272271410013E3EE /* AudioTrack.swift */,
 				4563F7C42722714B0013E3EE /* Artist.swift */,
 				4563F7C62722715F0013E3EE /* UserProfile.swift */,
+				453FF4CD27247B5C00144FBA /* AuthResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -185,9 +191,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		45C8933127226C1600C75236 /* Spotify */ = {
+		45C8933127226C1600C75236 /* Spotifyfy */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 45C8934627226C1700C75236 /* Build configuration list for PBXNativeTarget "Spotify" */;
+			buildConfigurationList = 45C8934627226C1700C75236 /* Build configuration list for PBXNativeTarget "Spotifyfy" */;
 			buildPhases = (
 				45C8932E27226C1600C75236 /* Sources */,
 				45C8932F27226C1600C75236 /* Frameworks */,
@@ -197,9 +203,9 @@
 			);
 			dependencies = (
 			);
-			name = Spotify;
+			name = Spotifyfy;
 			productName = Spotify;
-			productReference = 45C8933227226C1600C75236 /* Spotify.app */;
+			productReference = 45C8933227226C1600C75236 /* Spotifyfy.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -217,7 +223,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 45C8932D27226C1600C75236 /* Build configuration list for PBXProject "Spotify" */;
+			buildConfigurationList = 45C8932D27226C1600C75236 /* Build configuration list for PBXProject "Spotifyfy" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -230,7 +236,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				45C8933127226C1600C75236 /* Spotify */,
+				45C8933127226C1600C75236 /* Spotifyfy */,
 			);
 		};
 /* End PBXProject section */
@@ -260,6 +266,7 @@
 				4563F7B3272270560013E3EE /* ProfileViewController.swift in Sources */,
 				4563F7A527226EE50013E3EE /* TabBarViewController.swift in Sources */,
 				4563F7BF272271090013E3EE /* HapticsManager.swift in Sources */,
+				45A30A862723CAD500E3466D /* LoginView.swift in Sources */,
 				4563F7C3272271410013E3EE /* AudioTrack.swift in Sources */,
 				4563F7C927227EDF0013E3EE /* Extension.swift in Sources */,
 				45C8933A27226C1600C75236 /* HomeViewController.swift in Sources */,
@@ -272,6 +279,7 @@
 				4563F7A927226F990013E3EE /* LibraryViewController.swift in Sources */,
 				4563F7B5272270680013E3EE /* PlayerViewController.swift in Sources */,
 				4563F7BD272270EF0013E3EE /* APICaller.swift in Sources */,
+				453FF4CE27247B5C00144FBA /* AuthResponse.swift in Sources */,
 				45C8933827226C1600C75236 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,7 +432,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Spotify;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Spotifyfy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -450,7 +458,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Spotify;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Spotifyfy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -461,7 +469,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		45C8932D27226C1600C75236 /* Build configuration list for PBXProject "Spotify" */ = {
+		45C8932D27226C1600C75236 /* Build configuration list for PBXProject "Spotifyfy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				45C8934427226C1700C75236 /* Debug */,
@@ -470,7 +478,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		45C8934627226C1700C75236 /* Build configuration list for PBXNativeTarget "Spotify" */ = {
+		45C8934627226C1700C75236 /* Build configuration list for PBXNativeTarget "Spotifyfy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				45C8934727226C1700C75236 /* Debug */,
