@@ -6,12 +6,13 @@
 //
 
 import UIKit
+import SwiftUI
 
 class WelcomeViewController: UIViewController {
     
     private let signInButton: UIButton = {
         let button = UIButton()
-        button.backgroundColor = .white
+        button.backgroundColor = .systemBackground
         button.setTitle("Sign In with Spotify",for: .normal)
         button.setTitleColor(.blue, for: .normal)
         return button
@@ -57,6 +58,7 @@ class WelcomeViewController: UIViewController {
             return
         }
         
+        //let mainAppTabBarVC = UIHostingController( rootView: LoginView())
         let mainAppTabBarVC = TabBarViewController()
         mainAppTabBarVC.modalPresentationStyle = .fullScreen
         present(mainAppTabBarVC, animated: true)

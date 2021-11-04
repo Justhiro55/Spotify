@@ -6,6 +6,8 @@
 //
 
 import UIKit
+import SwiftUI
+
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
@@ -19,6 +21,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         let window = UIWindow(windowScene: windowScene)
         
         if AuthManager.shared.isSignedIn {
+            //window.rootViewController = UIHostingController( rootView: LoginView())
             window.rootViewController = TabBarViewController()
         }
         else {
@@ -30,7 +33,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         window.makeKeyAndVisible()
         self.window = window
-    }
 
     func sceneDidDisconnect(_ scene: UIScene) {
         // Called as the scene is being released by the system.
@@ -61,5 +63,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     }
 
 
+}
 }
 
