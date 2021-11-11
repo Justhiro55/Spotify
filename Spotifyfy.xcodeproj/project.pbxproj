@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		453C99602734341A009A1C9D /* SettingModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453C995F2734341A009A1C9D /* SettingModels.swift */; };
 		453FF4CE27247B5C00144FBA /* AuthResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453FF4CD27247B5C00144FBA /* AuthResponse.swift */; };
+		45568E1E273D509300DDED87 /* NewReleasesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45568E1D273D509300DDED87 /* NewReleasesResponse.swift */; };
+		45568E22273D519200DDED87 /* APIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45568E21273D519200DDED87 /* APIImage.swift */; };
 		4563F7A527226EE50013E3EE /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4563F7A427226EE50013E3EE /* TabBarViewController.swift */; };
 		4563F7A727226F6D0013E3EE /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4563F7A627226F6D0013E3EE /* SearchViewController.swift */; };
 		4563F7A927226F990013E3EE /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4563F7A827226F990013E3EE /* LibraryViewController.swift */; };
@@ -41,6 +43,8 @@
 		2976DDFE88D9640380EF84B5 /* Pods-Spotifyfy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spotifyfy.debug.xcconfig"; path = "Target Support Files/Pods-Spotifyfy/Pods-Spotifyfy.debug.xcconfig"; sourceTree = "<group>"; };
 		453C995F2734341A009A1C9D /* SettingModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingModels.swift; sourceTree = "<group>"; };
 		453FF4CD27247B5C00144FBA /* AuthResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthResponse.swift; sourceTree = "<group>"; };
+		45568E1D273D509300DDED87 /* NewReleasesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewReleasesResponse.swift; sourceTree = "<group>"; };
+		45568E21273D519200DDED87 /* APIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIImage.swift; sourceTree = "<group>"; };
 		4563F7A427226EE50013E3EE /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		4563F7A627226F6D0013E3EE /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		4563F7A827226F990013E3EE /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
@@ -163,6 +167,8 @@
 				4563F7C62722715F0013E3EE /* UserProfile.swift */,
 				453FF4CD27247B5C00144FBA /* AuthResponse.swift */,
 				453C995F2734341A009A1C9D /* SettingModels.swift */,
+				45568E1D273D509300DDED87 /* NewReleasesResponse.swift */,
+				45568E21273D519200DDED87 /* APIImage.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -209,7 +215,6 @@
 				2976DDFE88D9640380EF84B5 /* Pods-Spotifyfy.debug.xcconfig */,
 				103B429CC871AEA7C8F5E31E /* Pods-Spotifyfy.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -331,6 +336,7 @@
 				4563F7C1272271340013E3EE /* Playlist.swift in Sources */,
 				4563F7BB272270CF0013E3EE /* AuthManager.swift in Sources */,
 				4563F7B9272270A60013E3EE /* SearchResultsViewController.swift in Sources */,
+				45568E22273D519200DDED87 /* APIImage.swift in Sources */,
 				4563F7AF2722702A0013E3EE /* WelcomeViewController.swift in Sources */,
 				4563F7B3272270560013E3EE /* ProfileViewController.swift in Sources */,
 				4563F7A527226EE50013E3EE /* TabBarViewController.swift in Sources */,
@@ -348,6 +354,7 @@
 				4563F7A927226F990013E3EE /* LibraryViewController.swift in Sources */,
 				4563F7B5272270680013E3EE /* PlayerViewController.swift in Sources */,
 				4563F7BD272270EF0013E3EE /* APICaller.swift in Sources */,
+				45568E1E273D509300DDED87 /* NewReleasesResponse.swift in Sources */,
 				453FF4CE27247B5C00144FBA /* AuthResponse.swift in Sources */,
 				45C8933827226C1600C75236 /* SceneDelegate.swift in Sources */,
 			);
