@@ -20,6 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         if AuthManager.shared.isSignedIn {
             //window.rootViewController = UIHostingController( rootView: LoginView())
+            AuthManager.shared.refreshIfNeeded(completion: nil)
             window.rootViewController = TabBarViewController()
         }
         else {
